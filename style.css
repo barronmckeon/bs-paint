@@ -1,10 +1,16 @@
 .app {
   display: flex;
   height: 500px;
+  justify-content: center;
+  align-items: baseline;
+  flex-direction: row;
 }
 
 .headings {
   display: flex;
+  justify-content: center;
+  align-items: baseline;
+  flex-direction: row;
 }
 
 .brush-selection {
@@ -13,6 +19,7 @@
 }
 
 .paint {
+  justify-content: flex-end;
   height: 250px;
   display: flex;
 }
@@ -31,7 +38,8 @@
   height: 30px;
 }
 
-.current-brush, .palette-color {
+.current-brush,
+.palette-color {
   width: 30px;
   height: 30px;
   border: 1px solid black;
@@ -51,21 +59,21 @@
 }
 
 .color-1 {
-
+  background-color: rebeccapurple;
 }
 
 .color-2 {
-
+  background-color: coral;
 }
 
 .color-3 {
-
+  background-color: black;
 }
 
 .color-4 {
-
+  background-color: white;
 }
 
 .color-5 {
-
+  background-color: lightseagreen;
 }
